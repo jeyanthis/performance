@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.clearstorydata</groupId>
+    <artifactId>clearstorydata-parent</artifactId>
+    <version>4.0.2</version>
+  </parent>
+
+  <groupId>com.clearstorydata</groupId>
+  <artifactId>performance</artifactId>
+  <name>performance</name>
+  <version>0.0.1</version>
+  <description>Performance testing libraries</description>
+
+  <scm>
+    <connection>scm:git:git://github.com/clearstorydata/performance.git</connection>
+    <developerConnection>scm:git:git@github.com:clearstorydata/performance.git</developerConnection>
+    <url>http://github.com/clearstorydata/performance/tree/freeze</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <properties>
+    <docker.registry>628897842239.dkr.ecr.us-west-2.amazonaws.com</docker.registry>
+  </properties>
+
+  <dependencies>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.fabric8</groupId>
+        <artifactId>docker-maven-plugin</artifactId>
+        <version>0.15.14</version>
+        <extensions>true</extensions>
+
+        <configuration>
+          <images>
+            <image>
+              <alias>performance</alias>
+              <name>performance:${project.version}</name>
+              <build>
+                <dockerFile>${basedir}/story-webapp/Dockerfile</dockerFile>
+              </build>
+            </image>
+          </images>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.rat</groupId>
+        <artifactId>apache-rat-plugin</artifactId>
+        <version>0.8</version>
+        <executions>
+          <execution>
+            <id>default</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+
+        <configuration>
+          <excludes>
+            <exclude>tests/**</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
