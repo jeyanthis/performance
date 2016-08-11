@@ -21,7 +21,6 @@
   </scm>
 
   <properties>
-    <docker.registry>628897842239.dkr.ecr.us-west-2.amazonaws.com</docker.registry>
   </properties>
 
   <dependencies>
@@ -40,6 +39,7 @@
             <image>
               <alias>performance</alias>
               <name>performance:${project.version}</name>
+              <registry>628897842239.dkr.ecr.us-west-2.amazonaws.com</registry>
               <build>
                 <dockerFile>${basedir}/story-webapp/Dockerfile</dockerFile>
               </build>
