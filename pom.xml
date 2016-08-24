@@ -14,7 +14,7 @@
   <description>Performance testing libraries</description>
 
   <scm>
-    <connection>scm:git:git://github.com/clearstorydata/performance.git</connection>
+    <connection>scm:git:git@github.com:clearstorydata/performance.git</connection>
     <developerConnection>scm:git:git@github.com:clearstorydata/performance.git</developerConnection>
     <url>http://github.com/clearstorydata/performance/tree/freeze</url>
     <tag>HEAD</tag>
