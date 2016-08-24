@@ -42,6 +42,10 @@
               <registry>628897842239.dkr.ecr.us-west-2.amazonaws.com</registry>
               <build>
                 <dockerFile>${basedir}/story-webapp/Dockerfile</dockerFile>
+                <tags>
+                  <tag>latest</tag>
+                  <tag>${project.version}</tag>
+                </tags>
               </build>
             </image>
           </images>
