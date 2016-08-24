@@ -30,5 +30,5 @@ def mvn(args) {
 
 def release_version() {
   def pom = readMavenPom file: 'pom.xml'
-  pom.version.replace("-SNAPSHOT". "")
+  pom.version.replace("-SNAPSHOT", "")
 }
