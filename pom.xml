@@ -14,7 +14,7 @@
   <description>Performance testing libraries</description>
 
   <scm>
-    <connection>scm:git:git://github.com/clearstorydata/performance.git</connection>
+    <connection>scm:git:git@github.com:clearstorydata/performance.git</connection>
     <developerConnection>scm:git:git@github.com:clearstorydata/performance.git</developerConnection>
     <url>http://github.com/clearstorydata/performance/tree/freeze</url>
     <tag>HEAD</tag>
@@ -42,6 +42,10 @@
               <registry>628897842239.dkr.ecr.us-west-2.amazonaws.com</registry>
               <build>
                 <dockerFile>${basedir}/story-webapp/Dockerfile</dockerFile>
+                <tags>
+                  <tag>latest</tag>
+                  <tag>${project.version}</tag>
+                </tags>
               </build>
             </image>
           </images>
