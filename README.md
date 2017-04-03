@@ -5,8 +5,17 @@ The code in the repo can be built via the following Jenkins job: http://jenkins.
 The tests can be run via the following Jenkins job: http://jenkins.clearstorydata.com/view/Performance/job/performance.run/
 
 ## 2 Scripts
+
 e2e_data_steward_test.jmx: This script validates loging in as a data_steward and navigating to most of the pages of our app including Home Page, Data Sets List Page, DYML page, Groups page, Admin Page, Stories List page and Story page.
 viewer_script.jmx: This script validates loging in as a viewer and navigating to Storyboards list page and Storyboard Summay page.
+
+## Environment Details
+
+Number of stories: 250
+Number of datasets: 1800
+Number of storyboards: 700
+Number of users in organization: 120
+Number of frames in storyboard: 10
 
 ## Built Parameters
 
