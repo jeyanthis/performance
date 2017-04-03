@@ -1,8 +1,12 @@
-# Jmeter Performance Script
+# Jmeter Performance Scripts Overview
 
-The test lives in the following repo: https://github.com/clearstorydata/performance
+The tests live in the following repo: https://github.com/clearstorydata/performance
 The code in the repo can be built via the following Jenkins job: http://jenkins.clearstorydata.com/view/Performance/job/performance.release/
-The test can be run via the following Jenkins job: http://jenkins.clearstorydata.com/view/Performance/job/performance.run/
+The tests can be run via the following Jenkins job: http://jenkins.clearstorydata.com/view/Performance/job/performance.run/
+
+## 2 Scripts
+e2e_data_steward_test.jmx: This script validates loging in as a data_steward and navigating to most of the pages of our app including Home Page, Data Sets List Page, DYML page, Groups page, Admin Page, Stories List page and Story page.
+viewer_script.jmx: This script validates loging in as a viewer and navigating to Storyboards list page and Storyboard Summay page.
 
 ## Built Parameters
 
@@ -12,7 +16,7 @@ Loops: This parameter defines how many times each thread group is run. If, for e
 
 Storyboard_id: the storyboard ID is needed to validate the response times of summary page of that storyboard as well as the respnse times of the invididual tile calls. If storyboard id is left blank or the id does not eixst or is incorrect then related test steps will fail while the rest of the test steps will still pass.
 
-Script: Currently there is only 1 script - e2e_data_steward_test.jmx. This script validates loging in as a data_steward and navigating to most of the pages of our app including Home Page, Data Sets List Page, DYML page, Groups page, Admin Page, Stories List page, Story page, Storyboards List page, Storyboard Summary page.
+Script: Currently there are 2 scripts available - e2e_data_steward_test.jmx and viewer_script.jmx.which
 
 Story_id: the story id is needed to validate the response times of loading a given story. Similar to storyboard_id, if story_id is invalid/blank, the assocaited calls will result in invalid responses and failures while the rest of the script will execute normally
 
@@ -20,10 +24,3 @@ port: this is the web server port with default set to 443. The port can be updat
 
 api_token: this parameter is needed specifically for the /render call which is used to validate the storyboard tile/frame retrievel response times. This token needs to belong to the user entered in the user_login parameter. If token is invalid/blank then the responses of the /render call and other tile retrievel calls will be invalid while the rest of the script will run normally.
 
-## Understanding Results
-
-Once the run is completed in Jenkins, follow below steps to understand the results:
-1. Download .jtl file containing the results by clicking on "Last Successful Artifacts" and finding the appropriate .jtl file whose number matches the Jenkins build number of the test run. http://jenkins.clearstorydata.com/view/Performance/job/performance.run/lastSuccessfulBuild/artifact/results/
-2. Open Jmeter and add a Summary Report from Listeners menu
-3. Click on Browse and open the .jtl file downloaded in step 1
-4. From this point, the summary report shows details of each and every test step aggregated by the number of threads. This report can then be exported in any format and further analysed with any tool.
