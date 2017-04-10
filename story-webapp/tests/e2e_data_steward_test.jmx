@@ -52,6 +52,11 @@
             <stringProp name="Argument.value">${__P(api_token,dbab54cb-a341-4622-9c33-3e66d071a5b2)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="port" elementType="Argument">
+            <stringProp name="Argument.name">port</stringProp>
+            <stringProp name="Argument.value">${__P(port,443)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
@@ -96,7 +101,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -187,7 +192,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -237,7 +242,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -287,7 +292,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -337,7 +342,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -387,7 +392,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -437,7 +442,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">demo.clearstorydata.com</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -487,7 +492,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">demo.clearstorydata.com</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -537,7 +542,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -587,7 +592,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -695,7 +700,7 @@
               </collectionProp>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -796,12 +801,12 @@
             </ResultCollector>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -856,7 +861,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">demo.clearstorydata.com</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -902,7 +907,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -948,7 +953,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -994,7 +999,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1040,7 +1045,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1086,7 +1091,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">demo.clearstorydata.com</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1132,7 +1137,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1178,7 +1183,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">demo.clearstorydata.com</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1235,7 +1240,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1339,7 +1344,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1443,7 +1448,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1547,7 +1552,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1651,7 +1656,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1755,7 +1760,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1857,7 +1862,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -1977,7 +1982,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2104,7 +2109,7 @@
               </collectionProp>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2208,7 +2213,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2301,7 +2306,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">demo.clearstorydata.com</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2347,7 +2352,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2393,7 +2398,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2439,7 +2444,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2485,7 +2490,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2531,7 +2536,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2577,7 +2582,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2623,7 +2628,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2677,7 +2682,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2723,7 +2728,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2769,7 +2774,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2826,7 +2831,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2891,7 +2896,7 @@
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Get Latest Version" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
               <stringProp name="RegexExtractor.refname">sb_version</stringProp>
-              <stringProp name="RegexExtractor.regex">&quot;latestVersion&quot;:(.+?0)</stringProp>
+              <stringProp name="RegexExtractor.regex">&quot;latestVersion&quot;:(.+?1)</stringProp>
               <stringProp name="RegexExtractor.template">$1$</stringProp>
               <stringProp name="RegexExtractor.default"></stringProp>
               <stringProp name="RegexExtractor.match_number">1</stringProp>
@@ -2946,7 +2951,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -2992,7 +2997,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3038,7 +3043,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3084,7 +3089,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3137,7 +3142,7 @@
               </collectionProp>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3318,7 +3323,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3426,7 +3431,7 @@
               </collectionProp>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3589,7 +3594,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3635,7 +3640,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3681,7 +3686,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3727,7 +3732,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3773,7 +3778,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3825,7 +3830,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -3926,7 +3931,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4027,7 +4032,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4128,7 +4133,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4229,7 +4234,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4330,7 +4335,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4431,7 +4436,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4532,7 +4537,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4633,7 +4638,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4734,7 +4739,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4835,7 +4840,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -4936,7 +4941,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -5043,7 +5048,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">${environment}</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -5094,7 +5099,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">demo.clearstorydata.com</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -5145,7 +5150,7 @@
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
             <stringProp name="HTTPSampler.domain">demo.clearstorydata.com</stringProp>
-            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>

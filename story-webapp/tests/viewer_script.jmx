@@ -2896,7 +2896,7 @@
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Get Latest Version" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
               <stringProp name="RegexExtractor.refname">sb_version</stringProp>
-              <stringProp name="RegexExtractor.regex">&quot;latestVersion&quot;:(.+?0)</stringProp>
+              <stringProp name="RegexExtractor.regex">&quot;latestVersion&quot;:(.+?1)</stringProp>
               <stringProp name="RegexExtractor.template">$1$</stringProp>
               <stringProp name="RegexExtractor.default"></stringProp>
               <stringProp name="RegexExtractor.match_number">1</stringProp>
