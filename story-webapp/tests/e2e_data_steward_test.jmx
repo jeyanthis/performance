@@ -64,7 +64,7 @@
           </elementProp>
           <elementProp name="dataset_id" elementType="Argument">
             <stringProp name="Argument.name">dataset_id</stringProp>
-            <stringProp name="Argument.value">${__P(story_id,d92d5c1c-d845-4df8-8e02-7116d24151bf)}</stringProp>
+            <stringProp name="Argument.value">${__P(dataset_id,d92d5c1c-d845-4df8-8e02-7116d24151bf)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
