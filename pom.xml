@@ -10,7 +10,7 @@
   <groupId>com.clearstorydata</groupId>
   <artifactId>performance</artifactId>
   <name>performance</name>
-  <version>0.0.23-SNAPSHOT</version>
+  <version>0.0.24-SNAPSHOT</version>
   <description>Performance testing libraries</description>
 
   <scm>
